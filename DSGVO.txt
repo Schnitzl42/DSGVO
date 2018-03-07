@@ -1,0 +1,141 @@
+
+Für die in diesem Dokument gelisteten Informationen wird kein Anspruch auf Vollständigkeit oder Richtigkeit erhoben.
+
+
+--------------------------------------------------------------
+Personenbezogene Daten:
+--------------------------------------------------------------
+ - Name, Adresse, E-Mail, Cookie-Kennung, IP-Adressen, Werbe-IDs!
+ - Teilinfos die (in Kombination) theoretisch zur Identifizierung einer Person führen könnten
+ - verschlüsselte, pseudonymisierte Daten die zur (erneuten) Identifizierung einer Person genutzt werden können
+ 
+
+--------------------------------------------------------------
+Wann dürfen personenbezogene Daten verwendet werden?
+--------------------------------------------------------------
+ - Abwägung zwischen "die Interessen oder Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten erfordern"
+        - unzulässige Verwendung wenn: schutzwürdigen Interessen der Betroffenen die Interessen des Datenverarbeiters überwiegen
+ 
+ - zur Erfüllung eines Vertrages oder aufgrund gesetzlicher Verpflichtungen (Bestell- und Adressdaten von Kunden eines Onlineshops oder Daten,
+   die aufgrund steuerrechtlicher Archivierungspflichten aufbewahrt werden müssen)
+
+ - bei Vorhandensein eines "berechtigten (wirtschaftlichen oder ideellen) Interesses": 
+        - Art. 28 Abs. 1 S.1 Nr. 2 BDSG: Erheben, Speichern, Verändern oder Übermitteln von Daten mit Personenbezug 
+          oder ihre Nutzung als Mittel für die Erfüllung eigener Geschäftszwecke ist zulässig
+        - § 29 Abs. 1 BDSG: Werbung, Adresshandel und Auskunfteien
+        - Quelle: https://www.pingdigital.de/blog/2017/08/21/berechtigte-interessen-nach-der-dsgvo/1186
+
+ - „Online-Marketing-Klausel“ des Art. 6:
+        - einwilligungslose Verarbeitung ist Möglich: 
+          "Die Verarbeitung ist zur Wahrung der berechtigten Interessen des Verantwortlichen oder eines 
+           Dritten erforderlich, sofern nicht die Interessen oder Grundrechte und Grundfreiheiten der betroffenen Person,
+           die den Schutz personenbezogener Daten erfordern, überwiegen, insbesondere dann, wenn es sich bei der 
+           betroffenen Person um ein Kind handelt." 
+           => Interesse von Werbetreibenden ist ein berechtiges Interesse
+        - Quelle: https://www.adzine.de/2017/08/die-neue-eu-dsgvo-kein-grund-zur-panik/
+
+ - bei Einwilligung des Betroffenen (jederzeit widerrufbar)
+        - Protokollierung der Einwilligung inkl. Datum + Uhrzeit
+        - eindeutige Handlung notwendig (Deaktiviern von vorausgewählter Checkbox bei der Registrierung, 
+          bedeutet eine implizite Zustimmung und ist nicht erlaubt.)
+        - Zustimmung muss freiwillig erfolgen
+
+ - bei Weitergabe an 3. (=Auftragsverarbeitung) ist ein Auftragsverarbeitungsvertag notwendig
+        - bestätigt, dass 3. DSGVO konform arbeiten (eigenes Verzeichnis von Datenverarbeitungsvorgängen - Unklar wer dieses bereitstellen muss)
+        - Beispiele: Speicherung von Daten in Amazon-S3 Bucket oder Dropbox (Annahme Hoster kann auf diese Daten zugreifen)
+        - Technische und organisatorische Daten zum Schutz der Daten sind vorhanden
+        - Mustervertrag: https://www.lfd.niedersachsen.de/download/127630
+
+
+--------------------------------------------------------------
+Maßnahmen:
+--------------------------------------------------------------
+ - Dokumentation über die Verwendung der Daten
+        - Wie? Wo? und wie lange Daten gespeichert werden
+        - Welche Daten werden mit 3. geteilt?
+        - klare und einfache Sprache
+        - für Kinder verständlich wenn diese das Produkt nutzen
+
+ - Permanente Auskunftspflicht = Auskunft geben über:
+        - Verarbeitung und Bereitstellung der Daten einer Person.
+        - Die Möglichkeit eine Kopie der Daten auf Anfrage zu erhalten muss gegeben sein.
+           - Bereitgestellte Daten dürfen Rechte 3. z.B.: Gesprächsverlauf nicht verletzten.
+           - Wenn Daten elektronisch verarbeitet werden, müssen sie auch auf diesem Weg bereitgestellt werden.
+           - Bereitstellung innerhalb eines Monats nach Eingang der Anfrage.
+        - Recht auf Berichtigung persönlicher Daten. Kritisch ob selektive Berichtigung/Löschung z.B.: nur Vorname möglich sein soll.
+        - Recht auf Widerspruch zur Verarbeitung. Unklar ob dies im Bezug auf wirtschaftliches Intersse,
+          an die Löschung des Accounts gebunden werden kann.
+        - Recht auf Löschung der Daten.
+        - Unklar: Möglichkeit zum Datenexport verpflichtend?
+   
+ - Explizite Zustimmung zu Datenschutzrichtlinien (Terms & Conditions). Auch bei Änderung dieser.
+ - Explizites Opt-In z.B.: für den Empfang von Push-Benachrichtigungen und die Möglichkeit eines Opt-Outs (jederzeit)
+ - Verarbeitung personenbezogener Daten minimieren und schnellstmöglich pseudonymisieren
+ - Verschlüsselung des Datenverkehrs (z.B.: Messenger-Apps)
+ - Standardeinstellungen auf minimal nötigen Verarbeitungszweck minimieren
+
+
+--------------------------------------------------------------
+Problematische/Unklare Anwendungsfälle:
+--------------------------------------------------------------
+ - Tracking: explizites Opt-In + Opt-Out
+ - Das sammeln von Daten für spätere Analysen (z.B.: e-Intelligence oder Big-Data Science) ist sehr schwer zu argumentieren
+ - in-App Werbung: fällt unter wirtschaftliches Interesse. Hinweis auf Richtlinien DSGVO konformer 3. Anbieter.
+   Vorsicht bei Auslegung auf Kinder. Sicherheitshalber Apps nur an volljährige Personen anbieten.
+   Opt-Out unklar.
+ - Auftragsverarbeitungsvertag für 3. Anbieter: Cloud-Storage, Push, Tracking, etc..
+
+
+--------------------------------------------------------------
+Wichtig für Unternehmen (generell > 250 Mitarbeiter, aber Außnahmen möglich):
+--------------------------------------------------------------
+ - Führen eines Verzeichnisses über Datenverarbeitungsvorgänge
+   Musterverzeichnis: https://www.lfd.niedersachsen.de/themen/wirtschaft/verfahrensverzeicnis_und_verfahrensregister_nach_bdsg/verfahrensregister-und-verfahrensbeschreibung-fuer-den-nicht-oeffentlichen-bereich-56247.html
+ - Führen eines Einwilligunsverzeichnisses       
+
+
+--------------------------------------------------------------
+Kernpunkte:
+--------------------------------------------------------------
+ - genaue und leicht verständliche Dokumentation über Datenverarbeitungsvorgänge (inkl. Verarbeitung von und Weitergabe an 3.)
+ - Recht auf Datenauskunft und Löschung
+ - Explizite Opt-Ins und jederzeitige Opt-Outs (z.B.: Tracking, Push-Notifications, In-App Werbung fällt unter wirtschaftliches Interesse)
+ - Verwendung personenbezogener Daten auf nötiges Minimum (zur Bereitstellung der Dienstleistung) reduzieren
+ - Personenbezogene schnellstmöglich veschlüsseln/pseudonymisieren (z.b.: Datentransfer)
+ 
+- Abwägen wann Daten zum Zweck eines wirtschaftlichen Interesses verarbeitet werden. Eindeutiges Interesse muss überwiegen und gut argumentierbar sein.
+        - Marketing-Klausel ermöglicht einwilligungsloses Schalten von Werbung laut: https://www.adzine.de/2017/08/die-neue-eu-dsgvo-kein-grund-zur-panik/
+          Ist ein Opt-Out erforderlich? Wie werden andere Anbieter dieses Problem lösen?
+ 
+ - Freiwillige (explizite) Zustimmung zu Datenverarbeitung anbieten (Newsletter, Push, Tracking,..)
+    - bei Kindern bis 16. ist die Zustimmung der Eltern nötig => Apps wenn möglich nur für Volljährige anbieten
+    - Fälle für explizite Einwilligungserklärung vs. implizite Einwilligung durch Interessensabwägung ist noch offen: 
+      https://www.swd-rechtsanwaelte.de/blog/werbung-und-online-marketing-in-der-dsgvo-was-aendert-sich/
+ 
+ - Privacy Shield Zertifizierung von US basierten Diensten geht in Richtung DSVGO-Compliance (mehr Recherche nötig)
+        - Umgang mit Auftragsverarbeitungsvertag für 3. Anbieter? z.B.: Firebase, das laut https://firebase.google.com/support/faq/#privacy 
+          DSGVO konform ist. Fraglich ob Hinweis auf Firebase und deren Verarbeitung in Datenschutzrichtlinien + Opt-In/Out ausreichend ist. 
+ 
+ - Benachrichtigung über Datenverluste (Data-Breach) innerhalb von 72 Stunden (an User und eine zuständige Aufsichtsbehörde)
+ - Wesentliche Änderungen/Neuerungen: https://www.wko.at/service/wirtschaftsrecht-gewerberecht/EU-Datenschutz-Grundverordnung.html
+ - DSGVO: https://www.datenschutz-grundverordnung.eu/
+ 
+ - Links für DSGVO konforme apps:
+        https://techbeacon.com/15-steps-developing-eu-privacy-policy-compliant-apps
+        http://blog.safedk.com/gdpr/gdpr-meaning-mobile-apps/
+
+
+--------------------------------------------------------------
+Quellen:
+--------------------------------------------------------------
+https://www.golem.de/news/datenschutz-grundverordnung-was-unternehmen-und-admins-jetzt-tun-muessen-1803-133122.html
+https://www.pingdigital.de/blog/2017/08/21/berechtigte-interessen-nach-der-dsgvo/1186
+https://www.adzine.de/2017/08/die-neue-eu-dsgvo-kein-grund-zur-panik/
+https://www.datenschutz-grundverordnung.eu/
+https://www.swd-rechtsanwaelte.de/blog/werbung-und-online-marketing-in-der-dsgvo-was-aendert-sich/
+
+
+
+
+
+ 
