@@ -38,7 +38,7 @@ Wann dürfen personenbezogene Daten verwendet werden?
         - Protokollierung der Einwilligung inkl. Datum + Uhrzeit
         - eindeutige Handlung notwendig (Deaktiviern von vorausgewählter Checkbox bei der Registrierung, 
           bedeutet eine implizite Zustimmung und ist nicht erlaubt.)
-        - Zustimmung muss freiwillig erfolgen
+        - Zustimmung muss freiwillig erfolgen (kein Kopplungszwang z.B.: Login nur möglich wenn tracking erlaubt wird) 
 
  - bei Weitergabe an 3. (=Auftragsverarbeitung) ist ein Auftragsverarbeitungsvertag notwendig
         - bestätigt, dass 3. DSGVO konform arbeiten (eigenes Verzeichnis von Datenverarbeitungsvorgängen - Unklar wer dieses bereitstellen muss)
@@ -109,7 +109,7 @@ Kernpunkte:
  
  - Freiwillige (explizite) Zustimmung zu Datenverarbeitung anbieten (Newsletter, Push, Tracking,..)
     - bei Kindern bis 16. ist die Zustimmung der Eltern nötig => Apps wenn möglich nur für Volljährige anbieten
-    - Fälle für explizite Einwilligungserklärung vs. implizite Einwilligung durch Interessensabwägung ist noch offen: 
+    - Fälle für explizite Einwilligungserklärung vs. implizite Einwilligung durch Interessensabwägung sind noch offen (Grauzone?):
       https://www.swd-rechtsanwaelte.de/blog/werbung-und-online-marketing-in-der-dsgvo-was-aendert-sich/
  
  - Privacy Shield Zertifizierung von US basierten Diensten geht in Richtung DSVGO-Compliance (mehr Recherche nötig)
