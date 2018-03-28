@@ -1,0 +1,37 @@
+
+ - Persönliche Daten:
+        - App/User-Ids, IP-Adressen, Cookies, etc..
+        - HTTPS als Standard für übermittelte Daten (benötigt HTTPS endpoints von Kunden)
+        - soviel wie möglich sollte pseudonymisiert/verschlüsselt gespeichert werden
+
+ - Datenschutzerklärung:
+        -Dokumentation über die Verwendung der Daten
+                - Wie? Wo? und wie lange Daten gespeichert werden
+                - Welche Daten werden mit 3. geteilt?
+                - klare und einfache Sprache
+                - für Kinder verständlich wenn diese das Produkt nutzen
+
+  - Tracking:
+        - explizites Opt-In nötig 
+        - https://www.cio.de/a/einwilligung-bei-der-dsgvo-das-haekchen-richtig-setzen,3575554
+
+  - Werbung:
+        - explizites Opt-In für personalisierte Werbung
+        - Weiter Entwicklungen abwarten - Erlaubnis durch Marketingklausel: https://www.adzine.de/2017/08/die-neue-eu-dsgvo-kein-grund-zur-panik/
+
+  - Push Notifications:
+        - explizites Opt-In
+        - Push-Id darf keine Rückschlüsse auf Person geben
+
+  - Opt-Out:
+        - für alle Opt-Ins nötig (Settings)
+
+  - Daten Löschen:
+        - Feature um Daten/Account vollständig zu löschen
+
+  - Daten exportieren:
+        - Feature um User-Daten in ein gängiges Format (JSON, XML, CSV) zu exportieren 
+        (fraglich ob Daten evtl auch per Mail übermittelt werden können)
+
+Anmerkung: Zustimmung von Bestandskunden nur nötig wenn diese bisher nicht ohne bisherige Zustimmungserklärung eingeholt wurde: https://www.wko.at/service/unternehmensfuehrung-finanzierung-foerderungen/eu-dsgvo-einwilligung-rechtmaessigkeit-datenverarbeitung-fa.html#21
+
