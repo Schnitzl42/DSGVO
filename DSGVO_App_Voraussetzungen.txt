@@ -12,7 +12,7 @@
                 - für Kinder verständlich wenn diese das Produkt nutzen
 
   - Tracking:
-        - explizites Opt-In nötig 
+        - explizites Opt-In falls persönliche Daten getrackt werden (z.B: tracking-ID pro user)
         - https://www.cio.de/a/einwilligung-bei-der-dsgvo-das-haekchen-richtig-setzen,3575554
 
   - Werbung:
