@@ -11,6 +11,9 @@
                 - klare und einfache Sprache
                 - für Kinder verständlich wenn diese das Produkt nutzen
 
+  - Security by design:
+        - Data in Rest + Motion so gut wie möglich verschlüsseln (z.B.: HTTPS APIs)
+
   - Tracking:
         - explizites Opt-In falls persönliche Daten getrackt werden (z.B: tracking-ID pro user)
         - https://www.cio.de/a/einwilligung-bei-der-dsgvo-das-haekchen-richtig-setzen,3575554
